@@ -11,3 +11,7 @@ gashfen (master #) reflections $ ls -a
 .			.git
 ..			lesson_1_reflection.txt
 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: Once the repository is initialzed in the working directory, you add the files in to to the staging area before making commit directly the files from the working directory. It's like an intermediator. 
+
