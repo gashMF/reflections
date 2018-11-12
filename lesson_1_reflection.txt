@@ -1,0 +1,26 @@
+As the name indicates, the difference between two versions gives a string of characters that was added or removed from the original, which could be spotted as a bug.       
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: Having an access to the entire file history makes me track the changes I made throughout the process and revert to an older version if need be. By doing so, I can efficiently navigate my history for any intended purpose. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A: The pro of manuallys choosing when to creat a commit gives the user the freedom when to do so. The user makes the decision based on his own judgment. But that could be the con too. Finding the optimal or right frequency of commiting changes would be very subjective in both extremes either the change is very small or very large to point out the changes. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A: One commit for multiple files helps the user update any change made in one part of the file system to all other that could be potentially inter-related. That saves plenty of time instead of treating them separtely, which could be prone to errors if the number of files is large 
+
+How can you use the commands git log and git diff to view the history of files?
+
+A: git log displays all the history of files. Once every commit is done, a message should be assoiciated with to later identify easily what's changed. By navigating through the history with the specific message, it's easy to locate the ID of the commit. Using git diff of this identified commit ID and its immediate previous version, it's possible to see the chnages made in each case, where the red symbolizes the removed and green stands for newly added items. 
+
+How might using version control make you more confident to make changes that could break something?
+
+A: Regardless of the changes made in the current version, it is always possible to revert back to the previous version if something goes wrong. That gives the user the confidence to try out new things without worring about losing the whole file if something crazy happens. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+A: I want to use Git for versition control of my upcoming course which will have lots of coding: Data Analyst + Data Scientist
+
+Lesson 1 - Unit 30 - Setting up your workspace on Mac --Adjusting coloring of bash. 

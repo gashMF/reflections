@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+A: A .git metadata is created in the current directory. When run git status, initial commit message should be seen. However, I got the following message:
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lesson_1_reflection.txt
+
+I still don't know why. the git file is created which can be seen when running ls -a
+gashfen (master #) reflections $ ls -a
+.			.git
+..			lesson_1_reflection.txt
+
