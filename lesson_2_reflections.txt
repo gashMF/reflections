@@ -15,3 +15,21 @@ gashfen (master #) reflections $ ls -a
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: Once the repository is initialzed in the working directory, you add the files in to to the staging area before making commit directly the files from the working directory. It's like an intermediator. 
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+A: Use git diff --staged to see the difference between staging area and last commit.
+commands: git diff, git diff --staged
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: If there's some experimention to do on the file, branching it out and working on it without altering the master file would help. In addition, if there are new features to develop independently of the master branch, working on them for a while till they are finished to be merged with the master. 
+commands: git branch, git branch new_branch
+
+How do the diagrams help you visualize the branch structure?
+A: Diagrams are helpeful in visulaizing the track of the file changes and commits in each branch and identify commits which won't be reachable to the other branches. Any changes/commits in the unreachable branchs will be merged later to the master if needed. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: The commits in one branch will be reacheable by the other.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: Automatic merging has an advantage if there's no conflicts. Manually merging would be better in that case eventhough it might be tedious if the conflict is large to resolve.
+
