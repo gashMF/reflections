@@ -1,1 +1,3 @@
-
+When would you want to use a remote repository rather than keeping all your work
+local?
+A: When accessing the repo from anywhere is necessary and to let know the world what I'm working on and make them contributors to the projects if intersted, remote repo comes in handy. In addition, it could serve as a back up too. 
